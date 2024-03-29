@@ -1,0 +1,322 @@
+body {
+    margin: 0; 
+    font-family: "Spectral", serif;
+    background-color: #FFF7DB;    
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+.header {
+  position: relative;
+  width: auto;
+  
+}
+
+.header-img {
+  width: 1920px;
+  height: 1000px;
+}
+
+.text-header {
+  position: absolute;
+  top: 472px ;
+  color: #F8EED6;
+  font-size: 96px;
+  left: 123px;
+}
+
+
+.logo {
+  position: absolute;
+  width: 568px;
+  height: 150px;
+  top: 136px;
+  left: 25%;
+  
+}
+
+.header-button {
+  position: absolute;
+  top: 577px;
+  right: 124px;
+  width: 300px;
+  height: 100px;
+  border: none;
+  border-radius: 30px;
+  font-size: 45px;
+  font-weight: 600;
+  font-family: "Spectral", serif;
+  background-color:#FFDEAD ;
+  transition: transform .2s;
+}
+
+.header-button:hover {
+  transform: scale(1.03)
+}
+
+.header-button:active {
+  transform: scale(0.97);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main {
+  text-align: center;
+}
+
+.main-text {
+  font-size: 75px;
+  margin-top: 120px;
+  margin-bottom: 85px;
+}
+
+.text {
+  font-size: 30px;
+  margin-bottom: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.main-text-logo {
+  font-family: "Salsa", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.logo-text {
+  font-family: "Salsa", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.advantages {
+  padding-top: 120px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  background-color: #FBF4BC;
+}
+
+.adv-text {
+  text-align: center;
+  font-size: 75px;
+  top: 120px;
+  margin-bottom: 180px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center
+  
+}
+
+
+
+.effective {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.text-descr {
+  font-size: 20px;
+}
+
+
+
+
+.btn-subjects {
+  font-family: "Spectral", serif;
+  background-color: #FFDEAD;
+  width: 300px;
+  height: 80px;
+  border: none;
+  border-radius: 30px;
+  font-size: 30px;
+  transition: transform .2s;
+}
+
+.btn-subjects:hover {
+  transform: scale(1.03);
+}
+
+.btn-subjects:active {
+  transform: scale(0.97);
+}
+
+.btn-ukr-mova {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 60px;
+}
+
+.btn-ist-ukr {
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+
+
+
+
+.footer {
+  position: relative;
+}
+
+.img-ftr {
+  width: 1920px;
+}
+
+.logo-footer {
+  position: absolute;
+  top: 58px;
+  left: 86px;
+  width: 568px;
+  height: 150px;
+}
+
+.footer-text {
+  position: absolute;
+  top: 228px;
+  left: 90px;
+  color: #FFF7DB;
+  font-weight: 400;
+}
+
+.personal-data {
+  position: absolute;
+  background-color: #FFF7DB;
+  padding-left: 75px;
+  padding-right:100px;
+  padding-top: 50px;
+  padding-bottom: 24px;
+  border-radius: 40px;
+  bottom: 100px;
+  left: 86px
+}
+
+.name {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.text-persdata {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.creator {
+  position: absolute;
+  bottom: 90px;
+  right: 74px;
+}
+
+.social-media {
+  position: absolute;
+  bottom: 15px;
+  left: 32%
+}
+
+.telegram {
+  margin-right: 50px;
+}
+
+.instagram {
+  margin-right: 50px;
+}
+
+.facebook {
+  margin-right: 50px;
+}
+
+.phone {
+  position: absolute;
+  bottom: 10px;
+  right: 64px;
+  
+}
+
+
+
+.table-samos-parts {
+  
+  margin: auto;
+  margin-bottom: 10px;
+  width: 500px;
+  
+}
+
+.table-slusj-parts {
+  margin: auto;
+  margin-bottom: 10px;
+  width: 500px;
+}
+
+th {
+  background-color: #FFCD82;
+}
+
+td {
+  background-color: #FBF4BC;
+}
+
+.classes {
+  text-align: center;
+}
+
+.btn-classes {
+  font-family: "Spectral", serif;
+  margin-bottom: 20px;
+  font-size: 15px;
+  width: 300px;
+  height: 40px;
+  margin: 20px;
+  background-color:#FFCD82 ;
+  border-radius: 40px;
+  border: none;
+  transition: transform .2s;
+}
+
+.btn-classes:hover {
+  transform: scale(1.03);
+}
+
+.btn-classes:active {
+  transform: scale(0.97);
+}
+
+
+@media screen and (min-width: 1100px) {
+  
+}
+@media screen and (max-width:720px ) {
+  .header-button {
+    position: absolute;
+    top: 746px;
+    right: 250px;
+    width: 300px;
+    height: 100px;
+    border: none;
+    border-radius: 30px;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Spectral", serif;
+    background-color:#FFDEAD ;
+    transition: transform .2s;
+  }
+  .creator {
+    position: absolute;
+    bottom: 90px;
+    right: 74px;
+  }
+}
